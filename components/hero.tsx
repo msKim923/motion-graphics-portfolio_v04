@@ -15,19 +15,19 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="absolute bottom-8 px-10 -translate-y-1/2 z-10 w-full">
+      <div className="absolute bottom-0 lg:bottom-8 px-10 -translate-y-1/2 z-10 w-full">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-medium leading-tight mb-6 sm:mb-8">
           VFX Artist          
         </h1>
         
-        <div className="flex flex-col lg:flex-row gap-8 sm:gap-6 justify-between lg\:items-end">
+        <div className="flex flex-col gap-8 sm:gap-6 items-start">
           <p className="text-base sm:text-lg md:text-xl text-gray-200 max-w-4xl">
             I’m a VFX artist crafting dynamic visuals that merge creativity with technology. <br />
             The art challenges the technology, and the technology inspires the art.
           </p>
           <Button
             size="lg"
-            className="bg-white text-black hover:bg-gray-200 text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 h-auto max-w-42"
+            className="max-w-4xl bg-white text-black hover:bg-gray-200 text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 h-auto max-w-42"
             onClick={() => window.open("https://youtu.be/l6YXdGkScRY", "_blank")}
           >
             ShowReel
