@@ -16,7 +16,7 @@ export function Hero() {
 
       {/* Content */}
       <div className="absolute bottom-0 lg:bottom-8 px-10 -translate-y-1/2 z-10 w-full">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-medium leading-tight mb-6 sm:mb-8">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-medium leading-tight mb-2 sm:mb-8">
           VFX Artist          
         </h1>
         

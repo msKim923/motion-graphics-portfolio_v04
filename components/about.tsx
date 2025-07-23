@@ -14,7 +14,7 @@ export function About() {
         </div>
 
         {/* Content Positioned Lower on Screen */}
-        <div className="absolute bottom-10 px-10 z-10 w-full">
+        <div className="absolute bottom-10 lg:bottom-10 px-10 z-10 w-full">
           <div className="mb-12">
             <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl font-medium leading-tight mb-4">Get in Touch</h2>
             <p className="lg:text-lg text-sm text-gray-300">
@@ -24,7 +24,7 @@ export function About() {
 
           <div className="grid gap-16 md:grid-cols-2 text-white text-base">
             <div>
-              <h4 className="text-2xl font-semibold mb-4">CONTACT</h4>
+              <h4 className="text-lg lg:text-3xl font-semibold mb-2">CONTACT</h4>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Mail className="w-6 h-6 text-gray-400" />
@@ -43,7 +43,7 @@ export function About() {
 
             {/* Tools Section */}
             <div>
-              <h4 className="text-2xl font-semibold mb-4">TOOL</h4>
+              <h4 className="text-lg lg:text-3xl font-semibold mb-4">TOOL</h4>
               <div className="flex flex-wrap gap-3 sm:gap-6">
                 <img src="/tools/c4d.png" alt="Cinema 4D" className="h-8 md:h-12 w-auto" />
                 <img src="/tools/redshift.png" alt="Redshift" className="h-8 md:h-12 w-auto" />
